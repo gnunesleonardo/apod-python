@@ -13,11 +13,9 @@ def find(html, start, end):
         i = i+1
     return ret
 
-with open('apodInfo.txt') as apodInfo:
-    infos = apodInfo.readlines()
 
-for line in infos:
-    print(line, end='')
+print('Astronomy Picture of the Day\n')
+print('Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.')
 
 print('\nChoose an option\n0 - Enter Date\n1 - Today')
 option = int(input())
